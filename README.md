@@ -1,2 +1,3 @@
 # raphael-birb
-Check out https://twitter.com/sableRaph
+
+The artwork and idea by https://twitter.com/sableRaph
