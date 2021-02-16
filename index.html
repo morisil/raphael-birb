@@ -251,6 +251,8 @@ this.j);b.framebufferTexture2D(b.FRAMEBUFFER,b.COLOR_ATTACHMENT0,b.TEXTURE_2D,th
       img.src = src;
     });
 
+    const PI = 3.141592653589793;
+
     var time;
 
     var minDimension;
@@ -494,7 +496,7 @@ this.j);b.framebufferTexture2D(b.FRAMEBUFFER,b.COLOR_ATTACHMENT0,b.TEXTURE_2D,th
 
         const birbJumpDuration = performance.now() - birbJumpStart;
         if (birbJumpStart > 0) {
-          iBirbCenterY += Math.sin(birbJumpDuration / 1000 * 3.14) * .5;
+          iBirbCenterY += Math.sin(birbJumpDuration / 1000 * PI) * .5;
           if (birbJumpDuration > 1000) {
             iBirbCenterY = 0;
             birbJumpStart = 0;
